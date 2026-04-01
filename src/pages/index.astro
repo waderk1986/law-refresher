@@ -1,11 +1,23 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import { BackgroundPaths } from '../components/ui/background-paths'
+import '../styles/global.css'
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refresher Police Academy — Spring 2026 | Technical College of the Rockies</title>
+    <meta name="description" content="Two-week refresher police academy for returning officers. April 22 – May 7, 2026. Tactical training, experienced coaches. Apply now." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <a href="#main" class="sr-only">Skip to main content</a>
+    <main id="main">
+      <BackgroundPaths title="Refresher Police Academy" client:only="react" />
+    </main>
+  </body>
+</html>
