@@ -98,13 +98,13 @@ export function BackgroundPaths({
             One Academy. One Step. Back to Service.
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center gap-8 mt-8 mb-8">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-8 mt-8 mb-8">
             <div>
               <p className="text-xs uppercase tracking-widest text-[#008080] mb-1">
                 Dates
               </p>
               <p className="text-white text-lg font-semibold">
-                April 22 – May 7
+                July 27 – August 11
               </p>
             </div>
             <div>
@@ -122,6 +122,12 @@ export function BackgroundPaths({
               <p className="text-white text-lg font-semibold">
                 Delta, Colorado
               </p>
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[#008080] mb-1">
+                Tuition
+              </p>
+              <p className="text-white text-lg font-semibold">$3,400</p>
             </div>
           </div>
 

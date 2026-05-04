@@ -1,2 +1,8 @@
 @custom-variant dark (&:is(.dark *));
 @import 'tailwindcss';
+
+html,
+body {
+  font-family: 'Cinzel', 'Copperplate Gothic', 'Trajan Pro', Georgia,
+    'Times New Roman', serif;
+}
