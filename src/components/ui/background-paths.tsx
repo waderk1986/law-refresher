@@ -138,9 +138,6 @@ export function BackgroundPaths({
             <span className="rounded-full border border-[#008080] text-white/80 text-sm px-4 py-1.5">
               Tactical &amp; Technical Training
             </span>
-            <span className="rounded-full border border-[#008080] text-white/80 text-sm px-4 py-1.5">
-              Fun Games &amp; Competitions
-            </span>
           </div>
 
           <div
